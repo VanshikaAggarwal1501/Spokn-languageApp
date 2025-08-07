@@ -20,11 +20,10 @@ const __dirname = path.resolve();
 
 app.use(cors({
     origin: [
-        "http://localhost:5173", 
-        "https://spokn1.vercel.app", 
-        "https://spokn-c7gm6hf7p-lavishs-projects-36ec3d3b.vercel.app",
-        "https://spokn-lavishs-projects-36ec3d3b.vercel.app",
-
+        "http://localhost:5173",
+        "https://spokn-language-app.vercel.app",
+        "https://spokn-language-app-vanshika-aggarwals-projects-781b758f.vercel.app",
+        "https://spokn-language-git-d243c8-vanshika-aggarwals-projects-781b758f.vercel.app"
     ],
     credentials: true
 }));
